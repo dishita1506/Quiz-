@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+}
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#box{
+    background-color: chartreuse;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 470px;
+    width: 400px;
+    padding: 10px;
+    color:black;
+}
+
+#ans1,#ans2,#ans3,#ans4{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+}
+#ques{
+    background-color: rgb(197, 235, 161);
+    padding: 20px;
+    color: black;
+    font-weight: bolder;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Bungee Spice Regular';
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#btn{
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    border:none
+}
+
+#btn:hover{
+    background-color: rgb(25, 27, 24);
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+h3{
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+img{
+    margin-left: 98px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:400px) {
+    #box{
+        width:250px;
+        height: 350px;
+    }
+    #ques,#ans1,#ans2,#ans3,#ans4{
+        padding: 10px;
+        border-radius: 5px;
+    }
+    #btn{
+        width:50px;
+        height: 25px;
+        font-size: 10px;
+        margin-top:-8px;
+    }
+    h1{
+        font-size: 25px;
+    }
+
+}
